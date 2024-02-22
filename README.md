@@ -37,12 +37,10 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/confusion_matrix_gradient_boosting.png)
 
-|              | Precision | Recall | F1-Score | Support |
-|--------------|-----------|--------|----------|---------|
-| Non-Diabetic |   0.99    |  0.90  |   0.94   | 17,525  |
-|   Diabetic   |   0.48    |  0.92  |   0.63   |  1,701  |
-|    Accuracy  |           |        |   0.90   | 19,226  |
-|  Macro Avg   |   0.73    |  0.91  |   0.79   | 19,226  |
-| Weighted Avg |   0.95    |  0.90  |   0.92   | 19,226  |
+| Model               | Precision | Recall | F1 Score |
+|---------------------|-----------|--------|----------|
+| Logistic Regression |    0.39   |  0.86  |   0.54   |
+| Random Forest       |    0.85   |  0.69  |   0.76   |
+| Gradient Boosting   |    0.39   |  0.86  |   0.54   |
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/roc_curve.png)
