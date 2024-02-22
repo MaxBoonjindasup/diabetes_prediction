@@ -30,14 +30,10 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 1. Label encoded categorical variables: gender & smoking history
 2. Partitioned data into train-test split (20% test size)
 3. Balanced dataset by upsampling minority class (91.2% Normal class vs 8.8% Diabetic class)
-4. Trained Logistic Regression, Random Forest, and Gradient Boost models
+4. Trained Logistic Regression, Random Forest, and Gradient Boosting models
 
 ## Results
-Performance Criteria:
-1. Highest recall (because detecting all the diabetic patients is the aim)
-2. Highest AUC (indicative of best performing model)
-
-Best Performing Model: **Gradient Boost (shown below)**
+**Gradient Boosting** stood out with its ability to identify the most diabetic patients (*highest recall*). Additionally, it demonstrated strong overall performance (highest AUC).
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/confusion_matrix_gradient_boosting.png)
 
