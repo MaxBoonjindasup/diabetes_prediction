@@ -30,7 +30,7 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 1. Label encoded categorical variables: gender & smoking history
 2. Partitioned data into train-test split (20% test size)
 3. Balanced dataset by upsampling minority class (91.2% Normal class vs 8.8% Diabetic class)
-4. Trained Logistic Regression, Random Forest, and Gradient Boost (GB) models
+4. Trained Logistic Regression, Random Forest, and Gradient Boost models
 
 ## Results
 Performance Criteria:
