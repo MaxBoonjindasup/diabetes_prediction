@@ -34,10 +34,10 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 
 ## Results
 Performance Criteria:
-a) Highest recall (because detecting all the diabetic patients is the aim)
-b) Highest AUC (indicative of best performing model)
+1. Highest recall (because detecting all the diabetic patients is the aim)
+2. Highest AUC (indicative of best performing model)
 
-Best Performing Model: **Gradient Boost (metrics shown below)**
+Best Performing Model: **Gradient Boost (shown below)**
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/confusion_matrix_gradient_boosting.png)
 
