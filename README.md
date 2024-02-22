@@ -2,9 +2,9 @@
 Full breakdown on [Kaggle](https://www.kaggle.com/code/maxboonjindasup/diabetes-prediction).
 
 ## Introduction
-Diabetes, with its potential for severe health complications, represents a significant challenge for individuals and a substantial economic burden on healthcare systems. Early identification not only improves health outcomes but also presents a strategic business opportunity. Proactive management reduces healthcare costs and fosters a healthier patient population. This dual impact of improving health outcomes and optimizing healthcare economics underscores the compelling business case for leveraging machine learning in diabetes identification and management.
+Diabetes affects 537 million people globally, straining healthcare systems with costs exceeding $760 billion annually in the US alone. Studies indicate that early detection reduces complications by 50%, dramatically improving patient care. Further, leveraging machine learning for diabetes identification and management presents a path to significantly enhance health outcomes and reduce healthcare costs.
 
-Here I present 2 models trained off of 100,000 entries encompassing the following medical and demographic details:
+Here I present 3 models trained off of 100,000 entries encompassing the following medical and demographic details:
 
 | #   | Feature              |
 | --- | -------------------- |
@@ -30,7 +30,14 @@ Here I present 2 models trained off of 100,000 entries encompassing the followin
 1. Label encoded categorical variables: gender & smoking history
 2. Partitioned data into train-test split (20% test size)
 3. Balanced dataset by upsampling minority class (91.2% Normal class vs 8.8% Diabetic class)
-4. Trained Random Forest and Gradient Boost models (GB results shown below) and compared performances
+4. Trained Logistic Regression, Random Forest, and Gradient Boost (GB) models
+
+## Results
+Performance Criteria:
+a) Highest recall (because detecting all the diabetic patients is the aim)
+b) Highest AUC (indicative of best performing model)
+
+Best Performing Model: **Gradient Boost (metrics shown below)**
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/confusion_matrix_gradient_boosting.png)
 
