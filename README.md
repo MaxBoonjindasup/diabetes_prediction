@@ -33,11 +33,11 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 4. Trained Logistic Regression, Random Forest, and Gradient Boosting models
 
 ## Results
-**Gradient Boosting** stood out with its ability to identify the most diabetic patients (*highest recall*). Additionally, it demonstrated strong overall performance (highest AUC).
+**Gradient Boosting** stood out with its ability to identify the most diabetic patients (*highest recall*). Additionally, it demonstrated strong overall performance (*highest AUC*).
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/confusion_matrix_gradient_boosting.png)
 
-|               | Precision | Recall | F1-Score | Support |
+|              | Precision | Recall | F1-Score | Support |
 |--------------|-----------|--------|----------|---------|
 | Non-Diabetic |   0.99    |  0.90  |   0.94   | 17,525  |
 |   Diabetic   |   0.48    |  0.92  |   0.63   |  1,701  |
