@@ -49,4 +49,4 @@ Best Performing Model: **Gradient Boost (shown below)**
 |  Macro Avg   |   0.73    |  0.91  |   0.79   | 19,226  |
 | Weighted Avg |   0.95    |  0.90  |   0.92   | 19,226  |
 
-![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/roc_curve_gradient_boosting.png)
+![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/roc_curve.png)
