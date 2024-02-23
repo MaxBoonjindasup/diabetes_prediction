@@ -37,10 +37,10 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/confusion_matrix_gradient_boosting.png)
 
-| Model               | Precision | Recall | F1 Score |
-|---------------------|-----------|--------|----------|
-| Logistic Regression |    0.39   |  0.86  |   0.54   |
-| Random Forest       |    0.85   |  0.69  |   0.76   |
-| Gradient Boosting   |    0.39   |  0.86  |   0.54   |
+Model	| Precision	| Recall	| F1 Score
+------- | -------- | -------- | --------
+Logistic Regression | 0.39 | 0.86 | 0.54
+Random Forest | 0.85 | 0.69 | 0.76
+Gradient Boosting | 0.48 | 0.92 | 0.63
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/roc_curve.png)
