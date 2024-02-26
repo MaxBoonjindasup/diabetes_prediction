@@ -31,9 +31,9 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/blood_glucose.png)
 
-![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/perc_diabetic_sex.png)
-
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/diabetes_bmi_sex.png)
+
+![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/perc_diabetic_sex.png)
 
 ## Model Building
 1. Label encoded categorical variables: gender & smoking history
