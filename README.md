@@ -22,7 +22,7 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/age_vs_bmi.png)
 
-| Category          | Amount of Individuals | % of Individuals |
+|                   | Amount of Individuals | % of Individuals |
 |-------------------|-----------------------|------------------|
 | Normal Female     | 51,714                | 53.8             |
 | Normal Male       | 35,932                | 37.4             |
@@ -31,7 +31,21 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/blood_glucose.png)
 
+|                   | Average Blood Glucose Level |
+|-------------------|-----------------------------|
+| Normal Female     | 132.8                       |
+| Normal Male       | 132.9                       |
+| Diabetic Female   | 193.8                       |
+| Diabetic Male     | 194.2                       |
+
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/diabetes_bmi_sex.png)
+
+|                   | Average BMI |
+|-------------------|-------------|
+| Normal Female     | 27.01       |
+| Normal Male       | 26.67       |
+| Diabetic Female   | 32.64       |
+| Diabetic Male     | 31.29       |
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/perc_diabetic_sex.png)
 
