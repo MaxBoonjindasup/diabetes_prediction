@@ -22,7 +22,16 @@ Here I present 3 models trained off of 100,000 entries encompassing the followin
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/age_vs_bmi.png)
 
+| Category          | Amount of Individuals | % of Individuals |
+|-------------------|-----------------------|------------------|
+| Normal Female     | 51,714                | 53.8             |
+| Normal Male       | 35,932                | 37.4             |
+| Diabetic Female   | 4,447                 | 4.6              |
+| Diabetic Male     | 4,035                 | 4.2              |
+
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/blood_glucose.png)
+
+![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/age_vs_bmi.png)
 
 ![](https://github.com/MaxBoonjindasup/diabetes_prediction/blob/main/diabetes_bmi_sex.png)
 
